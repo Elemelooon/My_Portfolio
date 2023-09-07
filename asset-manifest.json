@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.6a61ba02.css",
+    "main.js": "/My_Portfolio/static/js/main.1a2e3d22.js",
+    "static/js/787.128fc6e9.chunk.js": "/My_Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/animerch.jpg": "/My_Portfolio/static/media/animerch.a6441dfa8a26fc28ba66.jpg",
+    "static/media/funtipolo.jpg": "/My_Portfolio/static/media/funtipolo.c5eda3e5a1b0cdef3e0e.jpg",
+    "static/media/rps1.gif": "/My_Portfolio/static/media/rps1.1cd32184445b97e16456.gif",
+    "static/media/xiaobirb.jpg": "/My_Portfolio/static/media/xiaobirb.c39166ccd5ecc904193b.jpg",
+    "static/media/calcu.gif": "/My_Portfolio/static/media/calcu.5134bd690fd95554dcfa.gif",
+    "static/media/react.svg": "/My_Portfolio/static/media/react.7edc3da689052994e7862e436a71ab08.svg",
+    "static/media/javascript.svg": "/My_Portfolio/static/media/javascript.38ba0007aae61d02a11c48bb73cff80a.svg",
+    "static/media/html.svg": "/My_Portfolio/static/media/html.d6e769e503b26f080a295e3b42357bd3.svg",
+    "index.html": "/My_Portfolio/index.html",
+    "static/media/css.svg": "/My_Portfolio/static/media/css.70d0bae5aa521965098d8fb675ef5b53.svg",
+    "main.6a61ba02.css.map": "/My_Portfolio/static/css/main.6a61ba02.css.map",
+    "main.1a2e3d22.js.map": "/My_Portfolio/static/js/main.1a2e3d22.js.map",
+    "787.128fc6e9.chunk.js.map": "/My_Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a61ba02.css",
+    "static/js/main.1a2e3d22.js"
+  ]
+}
