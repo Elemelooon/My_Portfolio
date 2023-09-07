@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+body {
+    font-family: monospace;
+    background:url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+    background-color: rgb(7, 13, 32);
+    color: white;
+}
+.navi {
+    opacity: 0.8;
+}
+.text-spaces{
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Lilita One', cursive;
+    color: white;
+}
+Nav.Link:hover {
+    color: green;
+}
+.typewriter h1 {
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(10, 102, 102); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+  
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(10, 102, 102); }
+  }
+.smoothedge {
+    border-radius: 12px;
+}
+.cardproj {
+    flex-direction: row;
+}
+.cardproj img {
+    width: 40%;
+}
+.card-title {
+    font-weight: bolder;
+}
+@media screen and (max-width:768px){
+    .cardproj {
+        flex-direction: column;
+    }
+    .cardproj img {
+        width: 100%;
+    }
+}
+label {
+    color: gray !important;
+}
+textarea {
+    height: 200px !important;
+}
+
+/* PROJECTS ANIMATION */
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+@keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+@keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
