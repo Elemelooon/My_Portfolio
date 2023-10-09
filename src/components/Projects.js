@@ -33,7 +33,7 @@ const Projects = () => {
                     <div class="card-body my-auto">
                         <h4 class="card-title">Conversion Calculator</h4>
                         <div class="card-text">
-                        A conversion calculator website, a handy tool that helps users effortlessly convert units, currencies, or measurements, making complex calculations a breeze.
+                        A conversion calculator website, a handy tool that helps users effortlessly convert speed, length, temperature, mass and time, making complex calculations a breeze.
                         </div>
                         <a href="https://elemelooon.github.io/ConversionCalculator_DeAsis/" class="btn btn-outline-light m-3">View Site</a>
                         <a href="https://github.com/Elemelooon/ConversionCalculator_DeAsis" class="btn btn-outline-light m-3">Github</a>
